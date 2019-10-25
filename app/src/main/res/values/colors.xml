@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="backColor">#2000</color>
+    <color name="color_main_bg">#f9f9f9</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="color_c1">#FFFFA726</color>
+    <color name="colorPrimaryDark">#2ACAE6</color>
+
+    <color name="color_c12">#FF3EA0F3</color>
+    <color name="color_c15">#FF757575</color>
+    <color name="color_edeeee">#edeeee</color>
+    <color name="color_eaeaea">#eaeaea</color>
+    <color name="color_5f5ddc">#5F5DDC</color>
+
+
+    <color name="color_2ACAE6">#2ACAE6</color>
+
+    <color name="color_17D1A5">#17D1A5</color>
+
+    //词汇色值
+    <color name="word1">#FFFFA726</color>
+    <color name="word2">#FF212121</color>
+    <color name="word3">#FF62BE9D</color>
+    <color name="word4">#FF43BC41</color>
+    <color name="word5">#FFF45244</color>
+    <color name="word6">#FFDB4437</color>
+    <color name="word7">#FF757575</color>
+    <color name="word9">#FFBDBDBD</color>
+    <color name="word10">#FFEDEEEE</color>
+    <color name="word11">#FFF2F2F2</color>
+    <color name="word12">#FFFAFAFA</color>
+    <color name="word13">#FFFFFFFF</color>
+    <color name="word14">#FFC1E979</color>
+    <color name="word15">#FF6FD3AF</color>
+    <color name="word16">#FFDADADA</color>
+    <color name="word17">#FFF4F4F4</color>
+    <color name="word18">#FFE9E9E9</color>
+    <color name="word19">#7fC1E979</color>
+    <color name="word20">#7f6FD3AF</color>
+    <color name="word21">#FF979797</color>
+    <color name="word22">#FF62BE9D</color>
+    <color name="word23">#FF0F0F0F</color>
+    <color name="word24">#FFFFF9DB</color>
+    <color name="word25">#FFEC5F44</color>
+
+
+    //新版帐号色值
+    <color name="color_212121">#212121</color>
+    <color name="color_9e9e9e">#9e9e9e</color>
+    <color name="color_757575">#757575</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_bdbdbd">#bdbdbd</color>
+    <color name="color_dadada">#dadada</color>
+    <color name="color_db4437">#DB4437</color>
+    <color name="color_ffffffff">#FFFFFFFF</color>
+    <color name="color_ff4281ef">#FF4281EF</color>
+    <color name="color_fffafafa">#FFFAFAFA</color>
+    <color name="color_0f4281ef">#0F4281EF</color>
+    <color name="color_de212121">#DE212121</color>
+    <color name="color_de757575">#DE757575</color>
+    <color name="color_ff9e9e9e">#FF9E9E9E</color>
+    <color name="color_ffffff">#FFFFFF</color>
+    <color name="color_00ffffff">#00FFFFFF</color>
+    <color name="color_99000000">#99000000</color>
+
+    <color name="color_bebebe">#BEBEBE</color>
+    <color name="color_ffffa726">#ffffa726</color>
+    <color name="color_ff212121">#FF212121</color>
+    <color name="color_ffedeeee">#FFEDEEEE</color>
+    <color name="color_ff757575">#FF757575</color>
+    <color name="color_0f0f0f">#0F0F0F</color>
+    <color name="color_71726e">#71726E</color>
+    <color name="color_fb7e33">#FB7E33</color>
+    <color name="color_f45245">#F45245</color>
+    <color name="color_717171">#717171</color>
+    <color name="color_000015">#000015</color>
+    <color name="colorPrimary">?colorPrimary</color>
+    <color name="colorAccent">?colorAccent</color>
+
+    <color name="color_ffbdbdbd">#FFBDBDBD</color>
+    <color name="color_ffdb4437">#FFDB4437</color>
+    <color name="color_ffdadada">#FFDADADA</color>
+    <color name="color_fff28077">#FFF28077</color>
+    <color name="color_f2f2f2">#FFF2F2F2</color>
+    <color name="color_cc000000">#CC000000</color>
+
+
+    <!-- 夜间模色值-->
+    <color name="color_ffffffff_ff303030">#FFFFFFFF</color>
+    <color name="color_ff212121_ff9d9b9b">#FF212121</color>
+    <color name="color_ff757575_ff9d9b9b">#FF757575</color>
+    <color name="color_de212121_ff9d9b9b">#DE212121</color>
+    <color name="color_de212121_ff716f6f">#DE212121</color>
+
+
+</resources>

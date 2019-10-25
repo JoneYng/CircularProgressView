@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Main2Activity">
+
+    <com.zhoux.view.CircularProgressView
+        android:id="@+id/CircularProgressView"
+        android:layout_width="114dp"
+        android:layout_height="114dp"
+        android:layout_margin="10dp"
+        app:backColor="@color/color_dadada"
+        app:backWidth="6dp"
+        app:progStartColor="#2ACAE6"
+        app:progFirstColor="#17D1A5"
+        app:progWidth="6dp"
+        app:progress="65" />
+
+</LinearLayout>

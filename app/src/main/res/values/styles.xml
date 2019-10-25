@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <declare-styleable name="CircularProgressView">
+        <attr name="backWidth" format="dimension" />    <!--背景圆环宽度-->
+        <attr name="progWidth" format="dimension" />    <!--进度圆环宽度-->
+        <attr name="backColor" format="color" />        <!--背景圆环颜色-->
+        <attr name="progColor" format="color" />        <!--进度圆环颜色-->
+        <attr name="progStartColor" format="color" />   <!--进度圆环开始颜色-->
+        <attr name="progFirstColor" format="color" />   <!--进度圆环结束颜色-->
+        <attr name="progress" format="integer" />       <!--圆环进度-->
+
+        <attr name="waveWidh" format="dimension" />       <!--波形宽度-->
+        <attr name="waveMaxHeight" format="dimension" />  <!--波形最大高度-->
+        <attr name="waveMinHeight" format="dimension" />  <!--波形最小高度-->
+        <attr name="waveRadius" format="dimension" />     <!--波形圆角-->
+        <attr name="waveOffset" format="dimension" />     <!--波形偏移量-->
+        <attr name="waveSpeed" format="integer" />     <!--波形播放速度-->
+        <attr name="waveRectCount" format="integer" />     <!--波形数量-->
+    </declare-styleable>
+</resources>
