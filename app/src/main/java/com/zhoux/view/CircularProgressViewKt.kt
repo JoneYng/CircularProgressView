@@ -19,8 +19,8 @@ import java.util.*
  */
 class CircularProgressViewKt(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
 
-     var mBackPaint: Paint
-     var mProgPaint: Paint   // 绘制画笔
+    private var mBackPaint: Paint
+    private var mProgPaint: Paint   // 绘制画笔
     private var mRectF: RectF? = null       // 绘制区域
     private var mColorArray: IntArray? = null  // 圆环渐变色
     private var mProgress: Int = 0    // 圆环进度(0-100)
@@ -77,7 +77,7 @@ class CircularProgressViewKt(context: Context?, attrs: AttributeSet?) : View(con
         mMinHeight = Utils.dip2px(context, typedArray.getDimension(R.styleable.CircularProgressView_waveMinHeight, 2f))
         mRadius = Utils.dip2px(context, typedArray.getDimension(R.styleable.CircularProgressView_waveRadius, 4f)).toFloat()
         mOffset = Utils.dip2px(context, typedArray.getDimension(R.styleable.CircularProgressView_waveOffset, 6f)).toFloat()
-        mSpeed = typedArray.getInt(R.styleable.CircularProgressView_waveSpeed, 150)
+        mSpeed = typedArray.getInt(R.styleable.CircularProgressView_waveSpeed, 100)
         mRectCount = typedArray.getInt(R.styleable.CircularProgressView_waveRectCount, 5)
         typedArray.recycle()
     }
@@ -141,7 +141,7 @@ class CircularProgressViewKt(context: Context?, attrs: AttributeSet?) : View(con
      */
     fun setProgress(progress: Int) {
         this.mProgress = progress
-        invalidate()
+//        invalidate()
     }
 
     /**
@@ -157,7 +157,6 @@ class CircularProgressViewKt(context: Context?, attrs: AttributeSet?) : View(con
             val animator = ValueAnimator.ofInt(mProgress, progress)
             animator.addUpdateListener { animation ->
                 mProgress = animation.animatedValue as Int
-                invalidate()
             }
             animator.interpolator = OvershootInterpolator()
             animator.duration = animTime
@@ -172,7 +171,6 @@ class CircularProgressViewKt(context: Context?, attrs: AttributeSet?) : View(con
      */
     fun setBackWidth(width: Int) {
         mBackPaint.strokeWidth = width.toFloat()
-        invalidate()
     }
 
     /**
@@ -182,7 +180,6 @@ class CircularProgressViewKt(context: Context?, attrs: AttributeSet?) : View(con
      */
     fun setBackColor(@ColorRes color: Int) {
         mBackPaint.color = ContextCompat.getColor(context, color)
-        invalidate()
     }
 
     /**
@@ -192,7 +189,6 @@ class CircularProgressViewKt(context: Context?, attrs: AttributeSet?) : View(con
      */
     fun setProgWidth(width: Int) {
         mProgPaint.strokeWidth = width.toFloat()
-        invalidate()
     }
 
     /**
@@ -203,7 +199,6 @@ class CircularProgressViewKt(context: Context?, attrs: AttributeSet?) : View(con
     fun setProgColor(@ColorRes color: Int) {
         mProgPaint.color = ContextCompat.getColor(context, color)
         mProgPaint.shader = null
-        invalidate()
     }
 
     /**
@@ -215,7 +210,6 @@ class CircularProgressViewKt(context: Context?, attrs: AttributeSet?) : View(con
     fun setProgColor(@ColorRes startColor: Int, @ColorRes firstColor: Int) {
         mColorArray = intArrayOf(ContextCompat.getColor(context, startColor), ContextCompat.getColor(context, firstColor))
         mProgPaint.shader = LinearGradient(0f, 0f, 0f, measuredWidth.toFloat(), mColorArray, null, Shader.TileMode.MIRROR)
-        invalidate()
     }
 
     /**
@@ -229,7 +223,6 @@ class CircularProgressViewKt(context: Context?, attrs: AttributeSet?) : View(con
         for (index in colorArray.indices)
             mColorArray!![index] = ContextCompat.getColor(context, colorArray[index])
         mProgPaint.shader = LinearGradient(0f, 0f, 0f, measuredWidth.toFloat(), mColorArray, null, Shader.TileMode.MIRROR)
-        invalidate()
     }
 
     /**
