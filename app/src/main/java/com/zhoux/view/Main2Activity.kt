@@ -16,18 +16,17 @@ class Main2Activity : AppCompatActivity() {
         CircularProgressView.setProgress(20)
         CircularProgressView.invalidate()
 
-        LineProgressViewKt.mRectCount=3
-        LineProgressViewKt.mIndex=2
+        LineProgressViewKt.setProgress(2,5)
 
 
 
         btnChange.setOnClickListener {
             val random = Random()
-            val randomHight2 =  1+random.nextInt(10)
-            LineProgressViewKt.setProgress(randomHight2-1,randomHight2)
+            val randomHight2 =  1+random.nextInt(5)
+            LineProgressViewKt.setProgress(randomHight2-1,5)
 
             val randomHight =  random.nextInt(100)
-            CircularProgressView.setProgress(randomHight,100)
+            CircularProgressView.setProgress(randomHight)
         }
 
     }

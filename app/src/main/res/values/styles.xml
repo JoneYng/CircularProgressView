@@ -27,10 +27,10 @@
     </declare-styleable>
 
     <declare-styleable name="LineProgressView">
-        <attr name="widh" format="dimension" />       <!--波形宽度-->
-        <attr name="height" format="dimension" />  <!--波形高度-->
-        <attr name="radius" format="dimension" />
-        <attr name="offset" format="dimension" />
-        <attr name="count" format="integer" />
+        <attr name="widh" format="dimension" />    <!--进度线宽度-->
+        <attr name="height" format="dimension" />  <!--进度线高度-->
+        <attr name="radius" format="dimension" />  <!--进度线圆角-->
+        <attr name="offset" format="dimension" />  <!--偏移量-->
+        <attr name="count" format="integer" />     <!--总共线的数量-->
     </declare-styleable>
 </resources>

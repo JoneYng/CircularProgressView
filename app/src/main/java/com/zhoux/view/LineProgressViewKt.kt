@@ -99,4 +99,14 @@ class LineProgressViewKt(context: Context?, attrs: AttributeSet?) : View(context
         invalidate()
     }
 
+    /**
+     * 设置当前进度
+     * @param mIndex 当前进度
+     */
+    fun setProgress(mIndex: Int) {
+        this.mIndex = mIndex
+        this.mRectCount = mRectCount
+        invalidate()
+    }
+
 }

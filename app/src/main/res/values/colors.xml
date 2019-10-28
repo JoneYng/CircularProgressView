@@ -7,8 +7,13 @@
 
     <color name="color_c1">#FFFFA726</color>
     <color name="colorPrimaryDark">#2ACAE6</color>
+
     <color name="color_ff3dacb7">#ff3dacb7</color>
     <color name="color_663dacb7">#663dacb7</color>
+    <color name="color_ffedeeee">#FFEDEEEE</color>
+
+    <color name="color_2ACAE6">#2ACAE6</color>
+    <color name="color_17D1A5">#17D1A5</color>
 
     <color name="color_c12">#FF3EA0F3</color>
     <color name="color_c15">#FF757575</color>
@@ -17,9 +22,7 @@
     <color name="color_5f5ddc">#5F5DDC</color>
 
 
-    <color name="color_2ACAE6">#2ACAE6</color>
 
-    <color name="color_17D1A5">#17D1A5</color>
 
     //词汇色值
     <color name="word1">#FFFFA726</color>
@@ -70,7 +73,6 @@
     <color name="color_bebebe">#BEBEBE</color>
     <color name="color_ffffa726">#ffffa726</color>
     <color name="color_ff212121">#FF212121</color>
-    <color name="color_ffedeeee">#FFEDEEEE</color>
     <color name="color_ff757575">#FF757575</color>
     <color name="color_0f0f0f">#0F0F0F</color>
     <color name="color_71726e">#71726E</color>
